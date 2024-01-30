@@ -260,22 +260,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
+  height: 100px;
   display: block;
 }
 .banner p {
+  /* display: block; */
+  /* margin-top: 100px; */
   color: whitesmoke;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
   font-family: 'Roboto', sans-serif;
-  filter: brightness(20%);
+  filter: brightness(75%);
   font-weight: bold;
+}
+@media (max-width: 1250px) {
+
+  .banner p{
+    margin-top: 100px;
+  }
 }
 .banner p span{
   color: #ff6b35;

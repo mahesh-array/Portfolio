@@ -26,7 +26,7 @@ const Projects = () => {
       title: "My Portfolio",
       description: "Built using ReactJS",
       imgUrl: projImg3,
-      projectUrl: "https://github.com/mahesh-array",
+      projectUrl: "https://mahesh-portfolyo.vercel.app/",
     },
     // {
     //   title: "Business Startup",

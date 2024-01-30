@@ -7,7 +7,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-// import navIcon4 from '../assets/img/nav-icon4.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
+import Resume from '../assets/img/resume.pdf';
 
 const NavBar = ()=>{
     const [activeLink, setActiveLink] = useState('home');
@@ -49,7 +50,7 @@ const NavBar = ()=>{
                 <a href="https://www.linkedin.com/in/maheswara-reddy-061a9a1b6/" target="_blank"><img src={navIcon1} alt=""/></a>
                 <a href="https://github.com/mahesh-array" target="_blank"><img src={navIcon2} alt=""/></a>
                 <a href="https://www.instagram.com/mahesh0132_/" target="_blank"><img src={navIcon3} alt=""/></a>
-                {/* <a href="resume goes here" target="_blank"><img src={navIcon4} alt=""/></a> */}
+                <a href={Resume} target="_blank"><img src={navIcon4} alt=""/></a>
             </div>
             {/* <button className="vvd" onClick={()=>console.log("")}><span>Hire Me</span></button> */}
           </span>
